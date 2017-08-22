@@ -1,5 +1,5 @@
 #!/bin/bash
-apt-get update && sudo apt-get upgrade -y 
+apt-get update && apt-get upgrade -y 
 apt-get install -y git make 
 apt-get install -y gcc g++ 
 apt-get install -y build-essential libssl-dev libcurl4-openssl-dev libjansson-dev libgmp-dev automake
